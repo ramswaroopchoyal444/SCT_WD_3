@@ -45,14 +45,6 @@ SCT_WD_3
 2. Open the project folder.
 3. Open `index.html` in your browser.
 
-## Live Demo
-
-🔗 https://prakhersharmaa89-crypto.github.io/SCT_WD_3/
-
-## GitHub Repository
-
-🔗 https://github.com/prakhersharmaa89-crypto/SCT_WD_3
-
 ## Project Output
 
 The Quiz Game Application allows users to:
@@ -69,6 +61,6 @@ The Quiz Game Application allows users to:
 
 ## Author
 
-**Bhaskar Sharma**
+**RAMSWAROO CHOYAL**
 
 SkillCraft Technology - Web Development Intern
