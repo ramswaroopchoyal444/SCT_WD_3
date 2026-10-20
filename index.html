@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game Application</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main Quiz Container -->
+
+    <div class="container">
+
+        <!-- Quiz Heading -->
+
+        <header>
+
+            <h1>Quiz Game</h1>
+
+            <p>Test your knowledge by answering the questions.</p>
+
+        </header>
+
+
+        <!-- Progress Section -->
+
+        <div class="progress-section">
+
+            <span id="question-number">
+                Question 1 of 10
+            </span>
+
+            <span id="score">
+                Score : 0
+            </span>
+
+        </div>
+
+
+        <!-- Progress Bar -->
+
+        <div class="progress-bar">
+
+            <div class="progress"></div>
+
+        </div>
+
+
+        <!-- Quiz Box -->
+
+        <div class="quiz-box">
+
+            <!-- Question -->
+
+            <h2 id="question">
+
+                What does HTML stand for?
+
+            </h2>
+
+
+            <!-- Options -->
+
+            <div class="options">
+
+                <button class="option">
+                    Hyper Text Markup Language
+                </button>
+
+                <button class="option">
+                    Hyper Transfer Machine Language
+                </button>
+
+                <button class="option">
+                    Home Tool Markup Language
+                </button>
+
+                <button class="option">
+                    Hyperlink Text Management Language
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Navigation Buttons -->
+
+        <div class="buttons">
+
+            <button id="previous">
+                Previous
+            </button>
+
+            <button id="skip">
+                Skip
+            </button>
+
+            <button id="next">
+                Next
+            </button>
+
+            <button id="submit">
+                Submit Quiz
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Result Container -->
+
+    <div class="result-container">
+
+        <h2>Quiz Completed 🎉</h2>
+
+        <div class="emoji">
+
+            😊
+
+        </div>
+
+        <h3 id="result-message">
+
+            Excellent!
+
+        </h3>
+
+        <p>
+
+            Your Score
+
+        </p>
+
+        <h1 id="final-score">
+
+            8 / 10
+
+        </h1>
+
+        <p id="percentage">
+
+            Percentage : 80%
+
+        </p>
+
+        <div class="result-details">
+
+            <p id="correct-count">✅ Correct Answers : 0</p>
+
+            <p id="wrong-count">❌ Wrong Answers : 0</p>
+
+            <p id="skip-count">⏭ Skipped Questions : 0</p>
+
+        </div>
+        
+
+        <button id="restart">
+
+            Play Again
+
+        </button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

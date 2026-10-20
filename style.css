@@ -1,0 +1,253 @@
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background: #000000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+/* Main Container */
+
+.container{
+    width:100%;
+    max-width:760px;
+    background:#ffffff;
+    padding:40px;
+    border-radius:18px;
+    box-shadow:0 18px 45px rgba(0,0,0,0.18);
+}
+
+/* Heading */
+
+header{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+header h1{
+    color:#1f3c88;
+    font-size:34px;
+    margin-bottom:8px;
+}
+
+header p{
+    color:#666;
+    font-size:15px;
+}
+
+/* Progress Section */
+
+.progress-section{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+    font-weight:500;
+    color:#444;
+}
+
+/* Progress Bar */
+
+.progress-bar{
+    width:100%;
+    height:8px;
+    background:#d9d9d9;
+    border-radius:10px;
+    overflow:hidden;
+    margin-bottom:30px;
+}
+
+.progress{
+    width:10%;
+    height:100%;
+    background:linear-gradient(90deg,#4e54c8,#8f94fb);
+    border-radius:10px;
+}
+
+/* Quiz Box */
+
+.quiz-box h2{
+    color:#222;
+    font-size:24px;
+    margin-bottom:25px;
+    line-height:1.5;
+}
+
+/* Options */
+
+.options{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.option{
+    width:100%;
+    text-align:left;
+    padding:15px 18px;
+    font-size:16px;
+    background:#fff;
+    border:2px solid #d8d8d8;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.option:hover{
+    background:#eef5ff;
+    border-color:#1f6feb;
+    transform:translateY(-2px);
+}
+
+/* Navigation Buttons */
+
+.buttons{
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+    margin-top:35px;
+}
+
+.buttons button{
+    flex:1;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    font-size:15px;
+    font-weight:500;
+    cursor:pointer;
+    transition:.25s;
+}
+
+/* Individual Button Colors */
+
+#previous{
+    background:linear-gradient(135deg,#6C757D,#8A949E);
+    color:white;
+}
+
+#skip{
+    background: linear-gradient(135deg, #D35400, #F39C12);
+    color:white;
+}
+
+#next{
+    background:linear-gradient(90deg,#4e54c8,#8f94fb);
+    color:white;
+}
+
+#submit{
+    background: linear-gradient(135deg, #16A34A,  #4ADE80);
+    color:white;
+    display:none;
+}
+
+/* Hover */
+
+.buttons button:hover{
+    opacity:.9;
+    transform:translateY(-2px);
+}
+
+/* Result Container */
+
+.result-container{
+    display:none;
+    width:100%;
+    max-width:650px;
+    background:white;
+    padding:40px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 5px 18px rgba(0,0,0,.12);
+}
+
+.result-container h2{
+    color:#1f3c88;
+    margin-bottom:15px;
+}
+
+.emoji{
+    font-size:70px;
+    margin:20px 0;
+}
+
+#result-message{
+    font-size:28px;
+    color:#333;
+    margin-bottom:15px;
+}
+
+#final-score{
+    color:#1f6feb;
+    font-size:50px;
+    margin:15px 0;
+}
+
+#percentage{
+    color:#555;
+    margin-bottom:25px;
+}
+
+.result-details{
+    text-align:left;
+    margin-bottom:30px;
+}
+
+.result-details p{
+    margin:10px 0;
+    font-size:17px;
+}
+
+#restart{
+    padding:14px 28px;
+    background:#1f6feb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.25s;
+}
+
+#restart:hover{
+    background:#0d5adf;
+}
+
+/* Responsive */
+
+@media(max-width:650px){
+
+    .container{
+        padding:25px;
+    }
+
+    header h1{
+        font-size:28px;
+    }
+
+    .quiz-box h2{
+        font-size:20px;
+    }
+
+    .buttons{
+        flex-direction:column;
+    }
+
+    .buttons button{
+        width:100%;
+    }
+
+}
